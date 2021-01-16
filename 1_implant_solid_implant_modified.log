@@ -1,0 +1,170 @@
+MSC Nastran V2018.0 (Intel Windows 10 Home 6.2 9200) Control File: 
+----------------------------------------------------------------- 
+$ sysfield=SCR*(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20180/conf/nast20180.rcf[2])
+$ sysfield=DBALL(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20180/conf/nast20180.rcf[3])
+Nastran BUFFSIZE=8193 $(c:/msc.software/msc_nastran/20180/conf/nast20180.rcf[6])
+JID='f:/implant/optimization/implant_ga/1_implant_solid_implant_modified.bdf'
+OUT='./1_implant_solid_implant_modified'
+MEM=8152MB      $ 
+MACH='Intel'
+OPER='Windows 10 Home'
+OSV='6.2 9200'
+MODEL='Xeon/3740 (Alan)'
+NPROC='12'
+CONFIG=6
+NPROC=12
+symbol=DELDIR='c:/msc.software/msc_nastran/20180/msc20180/nast/del' $(program default)
+symbol=DEMODIR='c:/msc.software/msc_nastran/20180/msc20180/nast/demo' $(program default)
+symbol=LM_NO_SNMP=1 $(c:/msc.software/msc_nastran/20180/conf/nast20180.rcf[10])
+symbol=MKL_INTERFACE_LAYER=ILP64 $(c:/msc.software/msc_nastran/20180/conf/nast20180.rcf[1])
+symbol=SSSALTERDIR='c:/msc.software/msc_nastran/20180/msc20180/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/msc.software/msc_nastran/20180/msc20180/nast/tpl' $(program default)
+SDIR='c:/msc.software/1_implant_solid_implant_modified.T48196_19'
+DBS='c:/msc.software/1_implant_solid_implant_modified.T48196_19'
+SCR='yes'
+SMEM=100
+BPOOL=2038.1MB
+DMPMEM=estimate
+NEWDEL='c:/msc.software/msc_nastran/20180/msc20180/win64i8/sss'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='F:\MSC Patran 2018\MAGNiTUDE\license.dat'
+AUTHQUE=20
+MSGCAT='c:/msc.software/msc_nastran/20180/msc20180/win64i8/analysis.msg'
+MSGDEST='f06'
+NEWS='c:/msc.software/msc_nastran/20180/msc20180/nast/news.txt'
+----------------------------------------------------------------- 
+MSC_ISHELLPATH=C:\MSC.Software\MSC_Nastran\20180\msc20180\actran\win64\Actran_18.0.b.107480\bin;C:\MSC.Software\MSC_Nastran\20180\msc20180\nast; 
+MSC_JIDPATH= 
+PATH=c:\msc.software\msc_nastran\20180\msc20180\win64i8;c:\msc.software\msc_nastran\20180\msc20180\win64i8\nCode\bin;c:\msc.software\msc_nastran\20180\msc20180\win64i8\nvidia;c:\msc.software\msc_nastran\20180\msc20180\win64i8\lib;c:\msc.software\msc_nastran\20180\msc20180\win64i8;C:\WINDOWS;C:\MSC.Software\Patran_x64\20180\bin;F:\Software\Scripts\;F:\Software\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Software;C:\Program Files\dotnet\;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Python\Python38\Scripts\;C:\Python\Python38\;D:\Ruby26-x64\bin;C:\Users\alans\AppData\Local\Microsoft\WindowsApps;C:\Users\alans\AppData\Local\atom\bin 
+SCA_SERVICE_CATALOG=c:\msc.software\msc_nastran\20180\msc20180\res\SCAServiceCatalog.xml 
+SCA_RESOURCE_DIR=c:\msc.software\msc_nastran\20180\msc20180\res 
+Cmd Line:    C:\MSC.Software\MSC_Nastran\20180\msc20180\win64i8\nastran.exe JID=F:\Implant\Optimization\implant_GA\1_implant_solid_implant_modified.bdf 
+Current Dir: F:\Implant\Optimization\implant_GA 
+Time Cmd:    c:\msc.software\msc_nastran\20180\msc20180\win64i8\msctime 
+Executable:  c:\msc.software\msc_nastran\20180\msc20180\win64i8\analysis.exe 
+Arch= Kywd:  [Not specified]  
+MSC_MSG:     stderr  
+FPE:         yes  
+----------------------------------------------------------------- 
+Current resource limits:
+ Physical memory:                    16305 MB
+ Physical memory available:           8994 MB
+ Paging file size:                   24497 MB
+ Paging file size available:         13632 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213491 MB
+----------------------------------------------------------------- 
+System configuration:
+ Hostname:         Alan.carleton.ca
+ Architecture:     win64i8
+ Platform:         Intel Windows 10 Home 6.2 9200 (Windows Compute Cluster)
+ Model:            Xeon/2427
+ Clock freq.:      2427 MHz
+ Number of CPUs:   12
+ Executable:       standard
+ Raw model ID:     6
+ Config number:    6
+ Physical memory:  16305 MB
+ Virtual memory:   24497 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: "c:/msc.software/msc_nastran/20180/msc20180/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+----------------------------------------------------------------- 
+MSC Nastran started  Fri Jul  3 11:51:20 EDT 2020 
+ 11:51:21  Beginning Analysis
+SCA Kernel 20.0.520419 successfully initialized
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20180\msc20180\win64i8\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20180\msc20180\win64i8\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20180\msc20180\win64i8\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20180\msc20180\win64i8\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20180\msc20180\win64i8\MSCblas.dll" has been loaded.
+
+ 11:51:23  MSC Authorization Information - System Attributes (1004, 0)
+ 11:51:23  -----------------------------------------------------------
+  Date:          Fri Jul  3 11:51:23 2020
+  MSC Id:        00059a3c7a00 (ethernet) (Intel)
+  Hostname:      Alan (user alans, display Alan)
+  License files: F:\MSC Patran 2018\MAGNiTUDE\license.dat
+  CEID:          23E38179-2576321G
+  User:          alans
+  Display:       Alan
+  LAPI Version:  LAPI 10.2.4 win64 :: Build 3774 20170919223700Z (FLEXlm 11.13.1.0)
+
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+  * *                                 * *
+  * *   MSC Customer Entitlement ID   * *
+  * *        23E38179-2576321G        * *
+  * *                                 * *
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+
+ 11:51:24  MSC Authorization Information - Checkout Successful (1016, 0)
+ 11:51:24  -------------------------------------------------------------
+ 11:51:24  Acquired 1 license for MSC Nastran from license server on host Alan
+
+
+ 11:51:24  MSC Authorization Information - Checkout Successful (1016, 0)
+ 11:51:24  -------------------------------------------------------------
+ 11:51:24  Acquired 1 license for MSC Nastran Nonlinear from license server on host Alan
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 11:51:25  70525 records read from JID file "f:/implant/optimization/implant_ga/1_implant_solid_implant_modified.bdf"
+
+Processing of bulk data entries is complete.
+
+ 11:51:27  Analysis started.
+ 11:51:27  Geometry access/verification to CAD part initiated (if needed).
+ 11:51:27  Geometry access/verification to CAD part successfully completed (if needed).
+ 11:51:27  Finite element model generation started.
+ 11:51:27  Finite element model generated 24606 degrees of freedom.
+ 11:51:27  Finite element model generation successfully completed.
+ 11:51:27  Application of Loads and Boundary Conditions to the finite element model started.
+ 11:51:27  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ ================================================== 
+ Warning/Fatal Message Summary           Occurrence
+       USER WARNING MESSAGE    22713.0          1 
+       USER WARNING MESSAGE    22713.0         20 
+       USER WARNING MESSAGE     4698.0          5 
+ ================================================== 
+ 11:51:56  20 records read from JID file "f:/implant/optimization/implant_ga/1_implant_solid_implant_modified.bdf"
+ 11:51:56  NSEXIT: EXIT(0)
+ 11:51:57  Analysis complete  0
+Real:       36.621 seconds ( 0:00:36.621)
+User:       30.062 seconds ( 0:00:30.062)
+Sys:         2.750 seconds ( 0:00:02.750)
+ ==================================================
+ OS:              6.2
+ OEM ID:         9
+ Number of processors:         12
+ Page size:         4096
+ Processor type:         8664
+ Minimum application address:         10000
+ Maximum application address:         fffeffff
+ Active processor mask:         4095
+ Nsocket:         2
+ Ncore:           12  ( 2 X 6 )
+ HyperThreading:  On
+ Ram:          16305 Mb
+ ==================================================
+ Time Summary                 CPU       Wall   ( Time in Seconds )
+ Input File                   1.2          1 
+ Stiffness Generation        10.2          9 
+ Miscellaneous               18.8         22 
+ -------------------------------------------
+ Total:                      30.2         32 
+ ==================================================
+ Consider using SOLVE=AUTO if you have not.
+ =====================================================
+ Detailed performance information can be found in the 
+ "MSC Nastran High Performance Computing User's Guide"
+ =====================================================
+MSC Nastran finished Fri Jul  3 11:51:57 EDT 2020 
