@@ -83,12 +83,10 @@ The final bdf will be the optimized lattice model for the implant.
 In the main.m, Global Constant and Local data initialization are yet to be determined for specific cases. Variables with constant values in m files are used for memory allocation and efficiency.
 They need to be customized for different models.
 
-Support:
-Alan Shen
-alanshen@cmail.carleton.ca
 
-Next Step:
-I will be working on a GUI for the ease of use of the code and try to make it more generic.
+
+
+
 
 
 

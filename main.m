@@ -33,6 +33,9 @@ roulette_interval = zeros(Population,1);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%
+path = addpath('src','data','feamodel','batch');
+%%
+%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%I N I T I A L  R A N D O M   C H R O M O S O M E S%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
